@@ -48,7 +48,6 @@ conda-env/
 ############################
 # ML / Data Science artifacts
 ############################
-data/
 datasets/
 checkpoints/
 models/

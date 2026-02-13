@@ -20,7 +20,7 @@
 
 # Optional: ignore PDFs if they are generated
 # Comment this out if PDFs are final deliverables
-*.pdf
+#*.pdf
 
 ############################
 # Jupyter / IPython

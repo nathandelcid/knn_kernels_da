@@ -1,0 +1,109 @@
+############################
+# LaTeX build artifacts
+############################
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# Optional: ignore PDFs if they are generated
+# Comment this out if PDFs are final deliverables
+*.pdf
+
+############################
+# Jupyter / IPython
+############################
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+############################
+# Python bytecode & caches
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+############################
+# Virtual environments
+############################
+venv/
+.venv/
+env/
+ENV/
+conda-env/
+.python-version
+
+############################
+# ML / Data Science artifacts
+############################
+data/
+datasets/
+checkpoints/
+models/
+weights/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+
+############################
+# PyTorch / TensorFlow junk
+############################
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+############################
+# NumPy / Pandas artifacts
+############################
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+############################
+# Experiment outputs
+############################
+results/
+outputs/
+figures/
+plots/
+
+############################
+# Testing / coverage
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# IDE / Editor
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
